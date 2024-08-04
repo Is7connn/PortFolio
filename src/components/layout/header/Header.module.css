@@ -1,0 +1,26 @@
+.Header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .scrool {
+    padding: 20px 0;
+    background: rgb(126, 126, 231);
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+      }
+      .nav {
+        .ul {
+          display: flex;
+          gap: 50px;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
